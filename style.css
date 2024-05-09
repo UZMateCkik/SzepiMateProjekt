@@ -1,15 +1,15 @@
 .csempe {
     display: inline-block;
-    width: 250px;
-    border-radius: 5px;
-    border: 1px solid black;
-    box-shadow: 2px 2px 2px black;
+    width: 500px;
+    border-radius: 10px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 4px black;
 }
 
 img {
     width: 100%;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 .kép {
@@ -27,38 +27,38 @@ img {
 
 .kepinfo h3 {
     font-weight: lighter;
-    padding: 5px;
+    padding: 10px;
 }
 
 .ár {
-    border: 1px solid gray;
-    padding: 5px;
+    border: 2px solid gray;
+    padding: 10px;
     font-size: 1.2rem;
     font-weight: bold;
 }
 
 .leírás {
-    font-size: 15px;
+    font-size: 30px;
     display: flex;
     justify-content: center;
-    border: 1px solid gray;
-    height: 50px;
+    border: 2px solid gray;
+    height: 100px;
 }
 
 .ccm {
     display: inline-block;
-    border: 1px solid gray;
-    width: 33%;
+    border: 2px solid gray;
+    width: 66%;
 }
 
 .LE {
     display: inline-block;
-    border: 1px solid gray;
-    width: 33%;
+    border: 2px solid gray;
+    width: 66%;
 }
 
 .valto {
     display: inline-block;
-    border: 1px solid gray;
-    width: 33%;
+    border: 2px solid gray;
+    width: 66%;
 }
