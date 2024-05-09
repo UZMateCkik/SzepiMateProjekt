@@ -31,7 +31,7 @@ img {
 }
 
 .ár {
-    border: 2px solid gray;
+    border: 2px solid orange;
     padding: 10px;
     font-size: 1.2rem;
     font-weight: bold;
@@ -41,24 +41,24 @@ img {
     font-size: 30px;
     display: flex;
     justify-content: center;
-    border: 2px solid gray;
+    border: 2px solid orange;
     height: 100px;
 }
 
 .ccm {
     display: inline-block;
-    border: 2px solid gray;
+    border: 2px solid orange;
     width: 66%;
 }
 
 .LE {
     display: inline-block;
-    border: 2px solid gray;
+    border: 2px solid orange;
     width: 66%;
 }
 
 .valto {
     display: inline-block;
-    border: 2px solid gray;
+    border: 2px solid orange;
     width: 66%;
 }
