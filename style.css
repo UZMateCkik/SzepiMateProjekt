@@ -62,3 +62,8 @@ img {
     border: 2px solid orange;
     width: 66%;
 }
+
+.carousel-item img {
+    height: 300px;
+    
+}
