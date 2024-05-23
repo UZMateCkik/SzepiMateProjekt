@@ -126,3 +126,7 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
 }
+
+.carousel-inner {
+    height: 500px;
+}
