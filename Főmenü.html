@@ -8,7 +8,18 @@
     <link rel="stylesheet" href="style.css">
     <title>Főmenü</title>
 </head>
-<body>
+<body class="body">
+  <header>
+    <h1>Autók.hu</h1>
+  </header>
+  <nav>
+    <ul>
+        <li><a href="#rolunk">Rólunk</a></li>
+        <li><a href="#szolgaltatasok">Szolgáltatások</a></li>
+        <li><a href="#csapat">Csapat</a></li>
+        <li><a href="#kapcsolat">Kapcsolat</a></li>
+    </ul>
+</nav>
     <nav class="navbar" style="background-color: lightgray;">
         <div class="container-fluid">
           <a class="navbar-brand" href="Főmenü.html">Főmenü</a>
@@ -16,6 +27,14 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <nav class="navbar bg-body-tertiary">
+              <div class="container-fluid">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Keresés</button>
+                </form>
+              </div>
+            </nav>
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="Személygépkocsi.html">Személygépkocsik</a>
@@ -30,12 +49,12 @@
               </li>
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
+                  Több...
                 </a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item" href="Terepjárók.html">Terepjárók</a></li>
+                  <li><a class="dropdown-item" href="Lakóatutók.html">Lakóautók</a></li>
+                  <li><a class="dropdown-item" href="Traktorok.html">Traktorok</a></li>
                 </ul>
               </li>
             </ul>
@@ -50,10 +69,10 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="Audi.jpg" class="d-block w-100" alt="skoda">
+            <img src="Audi.jpg" class="d-block w-100" alt="Audi">
           </div>
           <div class="carousel-item">
-            <img src="Merci.jpg" class="d-block w-100" alt="auto">
+            <img src="Merci.jpg" class="d-block w-100" alt="Merci">
           </div>
           <div class="carousel-item">
             <img src="Auto2.jpg" class="d-block w-100" alt="auto">
@@ -67,6 +86,14 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Következő</span>
         </button>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="Motorokerékpár1.jpg" class="card-img-top" alt="Motorokerékpár">
+        <div class="card-body">
+          <h5 class="card-title">Motorkerékpár</h5>
+          <p class="card-text">Mi az a motorkerékpár és hogy kell szabályosan közlekedni vele!</p>
+          <a href="Motorkerékpár.html" class="btn btn-primary">Mi az?</a>
+        </div>
       </div>
 </body>
 </html>
