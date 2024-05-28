@@ -1,21 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="hu">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Motorokerékpár</title>
+    <title>Főmenü</title>
 </head>
-<body>
+<body class="body">
+  <header>
+    <h1>Autók.hu</h1>
+  </header>
     <nav class="navbar">
         <div class="container-fluid">
           <a class="navbar-brand" href="Főmenü.html">Főmenü</a>
+            <ul>
+                <li><a href="#rolunk">Rólunk</a></li>
+                <li><a href="Szolgáltatások.html">Szolgáltatások</a></li>
+                <li><a href="Csapat.html">Csapat</a></li>
+                <li><a href="#kapcsolat">Kapcsolat</a></li>
+            </ul>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <nav class="navbar bg-body-tertiary">
+              <div class="container-fluid">
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Keresés</button>
+                </form>
+              </div>
+            </nav>
             <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="Személygépkocsi.html">Személygépkocsik</a>
@@ -42,10 +59,6 @@
           </div>
         </div>
       </nav>
-    <h1>Motorkerékpár</h1>
-        <p>motorkerékpár olyan gépjármű, amely két vagy három kerékkel rendelkezik,
-            saját tömege 400 kg alatti, belsőégésű motorjának hengerűrtartalma 50 cm³-nél nagyobb,
-            valamint tervezett sebessége nagyobb mint 50 km/h.</p>
-            <img class="motor" src="motor.webp" alt="Motorkerékpár"></img>
+      <h1>Szepes Roland és Üllei-Zakar Máté</h1>
 </body>
 </html>

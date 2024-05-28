@@ -130,3 +130,16 @@ nav ul li a:hover {
 .carousel-inner {
     height: 500px;
 }
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-toggler {
+    color: black;
+}
+
+.footer {
+    background-color: black;
+    color: #999;
+}
