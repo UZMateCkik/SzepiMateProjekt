@@ -143,3 +143,20 @@ nav ul li a:hover {
     background-color: black;
     color: #999;
 }
+
+.table {
+    background-color: lightgreen;
+    color: black;
+    width: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: 2px solid gray ;
+    color: black;
+    text-align: center;
+}
