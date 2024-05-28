@@ -127,3 +127,37 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #555;
 }
+
+.carousel-inner {
+    height: 500px;
+}
+
+.navbar-brand{
+    color: white;
+}
+
+.navbar-toggler {
+    color: black;
+}
+
+.footer {
+    background-color: black;
+    color: #999;
+}
+
+.table {
+    background-color: lightgreen;
+    color: black;
+    width: 30px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    border: 2px solid gray ;
+    color: black;
+    text-align: center;
+}
