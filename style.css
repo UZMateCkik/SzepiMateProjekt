@@ -16,7 +16,8 @@ img {
     width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
-    height: 400px;
+    width: 400px;
+    
 }
 
 .kép {
@@ -61,13 +62,6 @@ img {
     border: 2px solid orange;
     width: 66%;
     background-color: lightgray;
-}
-
-.video {
-    display: inline-block;
-    border: 2px solid orange;
-    width: 66%;
-    background-color:gray;
 }
 
 .ccm {
