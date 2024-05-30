@@ -16,6 +16,7 @@ img {
     width: 100%;
     border-top-right-radius: 10px;
     border-top-left-radius: 10px;
+    height: 400px;
 }
 
 .kép {
@@ -62,7 +63,7 @@ img {
     background-color: lightgray;
 }
 
-.vasarlas {
+.video {
     display: inline-block;
     border: 2px solid orange;
     width: 66%;
